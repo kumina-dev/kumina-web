@@ -9,8 +9,18 @@
   "languageSwitcher": {
     "label": "Language"
   },
-  "home": {
-    "title": "Kumina",
-    "lead": "I build websites and apps, and I'm starting to build them for businesses too."
+  "hero": {
+    "eyebrow": "Kumina · Tampere, Finland",
+    "title": "Hi, I'm Ville Syrjälä.",
+    "lead": "I build websites and apps, and I'm starting to build them for businesses too.",
+    "contact": "Get in touch",
+    "services": "Services"
+  },
+  "featured": {
+    "heading": "What I'm building",
+    "status": "In progress",
+    "title": "My own music streaming service",
+    "description": "A browser-based music app for my own music library: player, queue, and browsing by artist and album. It runs on Navidrome as the backend, built so that it can later be swapped for my own.",
+    "githubLink": "My other projects on GitHub"
   }
 }

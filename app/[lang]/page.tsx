@@ -1,4 +1,6 @@
 import { notFound } from "next/navigation";
+import { FeaturedProject } from "@/components/FeaturedProject/FeaturedProject";
+import { Hero } from "@/components/Hero/Hero";
 import { getDictionary, isLocale } from "@/lib/i18n";
 import styles from "./page.module.css";
 
@@ -9,10 +11,8 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
   
   return (
     <main className={styles.main}>
-      <section className={styles.section}>
-        <h1>{dict.home.title}</h1>
-        <p className={styles.lead}>{dict.home.lead}</p>
-      </section>
+      <Hero dict={dict.hero} />
+      <FeaturedProject dict={dict.featured} />
     </main>
   );
 }

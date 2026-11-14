@@ -9,8 +9,18 @@
   "languageSwitcher": {
     "label": "Kieli"
   },
-  "home": {
-    "title": "Kumina",
-    "lead": "Rakennan verkkosivuja ja sovelluksia, ja olen aloittamassa niiden tekemistä myös yrityksille."
+  "hero": {
+    "eyebrow": "Kumina · Tampere",
+    "title": "Hei, olen Ville Syrjälä.",
+    "lead": "Rakennan verkkosivuja ja sovelluksia, ja olen aloittamassa niiden tekemistä myös yrityksille.",
+    "contact": "Ota yhteyttä",
+    "services": "Palvelut"
+  },
+  "featured": {
+    "heading": "Mitä rakennan",
+    "status": "Työn alla",
+    "title": "Oma musiikkipalvelu",
+    "description": "Selaimessa toimiva musiikkisovellus omalle musiikkikirjastolle: soitin, jono sekä artistien ja albumien selaus. Taustapalvelimena on Navidrome, ja sovellus on rakennettu niin, että sen voi myöhemmin vaihtaa omaan.",
+    "githubLink": "Muut projektini GitHubissa"
   }
 }

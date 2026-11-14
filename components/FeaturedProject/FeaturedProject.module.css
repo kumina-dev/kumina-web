@@ -1,0 +1,66 @@
+.section {
+  display: grid;
+  gap: var(--space-6);
+}
+
+.heading {
+  font-size: var(--text-xl);
+  color: var(--color-text-muted);
+  font-weight: var(--weight-medium);
+}
+
+.card {
+  display: grid;
+  gap: var(--space-4);
+  max-width: var(--text-width);
+  padding: var(--space-6);
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+}
+
+.top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+}
+
+.status {
+  padding: var(--space-1) var(--space-3);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-full);
+  color: var(--color-accent);
+  font-size: var(--text-sm);
+  white-space: nowrap;
+}
+
+.description {
+  color: var(--color-text-muted);
+}
+
+.stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  padding: 0;
+  list-style: none;
+  font-size: var(--text-sm);
+}
+
+.stack li {
+  padding: var(--space-1) var(--space-3);
+  background-color: var(--color-bg);
+  border-radius: var(--radius-sm);
+}
+
+.githubLink {
+  justify-self: start;
+}
+
+@media (min-width: 48rem) {
+  .card {
+    padding: var(--space-8);
+  }
+}
