@@ -22,5 +22,27 @@
     "title": "My own music streaming service",
     "description": "A browser-based music app for my own music library: player, queue, and browsing by artist and album. It runs on Navidrome as the backend, built so that it can later be swapped for my own.",
     "githubLink": "My other projects on GitHub"
+  },
+  "services": {
+    "heading": "Services for businesses",
+    "items": [
+      {
+        "title": "Websites",
+        "description": "A clear website for your business. It works well on phones and computers, and it's easy to update later.",
+        "price": "Ask for a quote"
+      },
+      {
+        "title": "Maintenance and updates",
+        "description": "I keep your site up to date and secure. Includes up to one hour of small changes per month, such as updating text or images. Additional work billed by the hour.",
+        "price": "€30/month + VAT"
+      },
+      {
+        "title": "Apps and automations",
+        "description": "Small apps and automations that handle repetitive tasks for you, such as forms or moving data from one system to another.",
+        "price": "Ask for a quote"
+      }
+    ],
+    "ctaText": "Tell me what you need, and I'll send you a quote.",
+    "ctaButton": "Ask for a quote"
   }
 }

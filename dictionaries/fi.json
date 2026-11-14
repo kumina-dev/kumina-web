@@ -22,5 +22,27 @@
     "title": "Oma musiikkipalvelu",
     "description": "Selaimessa toimiva musiikkisovellus omalle musiikkikirjastolle: soitin, jono sekä artistien ja albumien selaus. Taustapalvelimena on Navidrome, ja sovellus on rakennettu niin, että sen voi myöhemmin vaihtaa omaan.",
     "githubLink": "Muut projektini GitHubissa"
+  },
+  "services": {
+    "heading": "Palvelut yrityksille",
+    "items": [
+      {
+        "title": "Verkkosivut",
+        "description": "Selkeät verkkosivut yrityksellesi. Ne toimivat hyvin puhelimella ja koneella, ja niitä on helppo päivittää myöhemmin.",
+        "price": "Pyydä tarjous"
+      },
+      {
+        "title": "Ylläpito ja päivitykset",
+        "description": "Pidän sivut ajan tasalla ja turvallisina. Hintaan sisältyy enintään tunti pieniä muutoksia kuukaudessa, kuten tekstien tai kuvien päivityksiä. Lisätyöt erikseen tuntihinnalla.",
+        "price": "30 €/kk + alv"
+      },
+      {
+        "title": "Sovellukset ja automaatiot",
+        "description": "Pieniä sovelluksia ja automaatioita, jotka hoitavat toistuvia tehtäviä puolestasi, esimerkiksi lomakkeita tai tietojen siirtoa järjestelmästä toiseen.",
+        "price": "Pyydä tarjous"
+      }
+    ],
+    "ctaText": "Kerro, mitä tarvitset, niin teen sinulle tarjouksen.",
+    "ctaButton": "Pyydä tarjous"
   }
 }
