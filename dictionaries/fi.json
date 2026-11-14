@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "title": "Kumina",
+    "description": "Verkkosivut ja sovellukset pienyrityksille."
+  },
+  "header": {
+    "homeLabel": "Kumina, etusivulle"
+  },
+  "languageSwitcher": {
+    "label": "Kieli"
+  },
+  "home": {
+    "title": "Kumina",
+    "lead": "Rakennan verkkosivuja ja sovelluksia, ja olen aloittamassa niiden tekemistä myös yrityksille."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "title": "Kumina",
+    "description": "Websites and apps for small businesses."
+  },
+  "header": {
+    "homeLabel": "Kumina, home"
+  },
+  "languageSwitcher": {
+    "label": "Language"
+  },
+  "home": {
+    "title": "Kumina",
+    "lead": "I build websites and apps, and I'm starting to build them for businesses too."
+  }
+}
