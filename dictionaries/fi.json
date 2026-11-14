@@ -1,7 +1,9 @@
 {
   "meta": {
-    "title": "Kumina",
-    "description": "Verkkosivut ja sovellukset pienyrityksille."
+    "title": "Kumina — Verkkosivut ja sovellukset pienyrityksille",
+    "description": "Ville Syrjälä, Tampere. Verkkosivut, ylläpito sekä pienet sovellukset ja automaatiot yrityksille.",
+    "ogHeadline": "Verkkosivut ja sovellukset pienyrityksille",
+    "ogLocale": "fi_FI"
   },
   "header": {
     "homeLabel": "Kumina, etusivulle"

@@ -3,6 +3,7 @@ import { Geist } from "next/font/google";
 import { notFound } from "next/navigation";
 import { Header } from "@/components/Header/Header";
 import { getDictionary, isLocale, locales } from "@/lib/i18n";
+import { siteUrl } from "@/lib/site";
 import "../globals.css";
 
 const geist = Geist({
@@ -26,8 +27,30 @@ export async function generateMetadata({
   const dict = await getDictionary(lang);
 
   return {
+    metadataBase: new URL(siteUrl),
     title: dict.meta.title,
     description: dict.meta.description,
+    alternates: {
+      canonical: `/${lang}`,
+      languages: {
+        fi: "/fi",
+        en: "/en",
+        "x-default": "/fi",
+      },
+    },
+    openGraph: {
+      type: "website",
+      url: `/${lang}`,
+      siteName: "Kumina",
+      title: dict.meta.title,
+      description: dict.meta.description,
+      locale: dict.meta.ogLocale,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: dict.meta.title,
+      description: dict.meta.description,
+    },
   };
 }
 

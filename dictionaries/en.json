@@ -1,7 +1,9 @@
 {
   "meta": {
-    "title": "Kumina",
-    "description": "Websites and apps for small businesses."
+    "title": "Kumina — Websites and apps for small businesses",
+    "description": "Ville Syrjälä, Tampere, Finland. Websites, maintenance, and small apps and automations for businesses.",
+    "ogHeadline": "Websites and apps for small businesses",
+    "ogLocale": "en_US"
   },
   "header": {
     "homeLabel": "Kumina, home"
