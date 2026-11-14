@@ -44,5 +44,12 @@
     ],
     "ctaText": "Kerro, mitä tarvitset, niin teen sinulle tarjouksen.",
     "ctaButton": "Pyydä tarjous"
+  },
+  "contact": {
+    "heading": "Ota yhteyttä",
+    "text": "Kerro lyhyesti, mitä tarvitset, niin palaan asiaan 1-2 päivän sisällä.",
+    "emailLabel": "Sähköposti",
+    "emailSubject": "Yhteydenotto verkkosivuilta",
+    "githubLabel": "GitHub"
   }
 }
